@@ -1,0 +1,7 @@
+version: '1.0'
+steps:
+
+  build_image:
+    title: Build image ...
+    type: build
+    image_name: codefreshio/npm-publish
