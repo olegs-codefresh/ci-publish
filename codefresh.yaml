@@ -4,7 +4,7 @@ steps:
   build_image:
     title: Build image ...
     type: build
-    image_name: codefreshio/npm-publish
+    image_name: codefresh/npm-publish
 
 
   push_to_registry:
