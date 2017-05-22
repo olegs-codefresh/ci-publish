@@ -5,3 +5,10 @@ steps:
     title: Build image ...
     type: build
     image_name: codefreshio/npm-publish
+
+
+  push_to_registry:
+    title: Pushing to registry...
+    type: push
+    candidate: '${{build_image}}'
+    tag: '${{CF_BRANCH}}'
