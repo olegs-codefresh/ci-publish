@@ -12,4 +12,5 @@ steps:
     title: Pushing to registry...
     type: push
     candidate: '${{build_image}}'
-    tag: '${{CF_BRANCH}}'
+    registry: dockerhub
+    tag: '${{NODE_VERSION}}'
