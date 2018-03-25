@@ -5,7 +5,8 @@ steps:
     title: Build image ...
     type: build
     image_name: codefresh/npm-publish
-
+    build_arguments:
+      - NODE_VERSION=${{NODE_VERSION}}
 
   push_to_registry:
     title: Pushing to registry...
