@@ -1,4 +1,6 @@
-FROM node:7.10.0
+ARG NODE_VERSION
+
+FROM node:${NODE_VERSION}
 
 WORKDIR /cli
 
